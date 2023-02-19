@@ -9,7 +9,7 @@ def cost(y):
 def main():
 
     # create a pool of 10 processes
-    pool=mp.Pool(processes=10)
+    pool=mp.Pool(processes=8)
 
 
     # create random examples of y_true and y_pred
